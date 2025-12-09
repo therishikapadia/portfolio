@@ -125,7 +125,6 @@ export const SITE_CONTENT = {
     { name: "Python", icon: SiPython },
     { name: "SQL", icon: SiMysql },
   ],
-  hardware: [],
 
   libraries: [
     { name: "React", icon: SiReact },

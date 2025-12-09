@@ -46,7 +46,6 @@ export interface Skills {
   frameworks: SkillProp[];
   databases: SkillProp[];
   tools: SkillProp[];
-  hardware: SkillProp[];
   platforms: SkillProp[];
 }
 
