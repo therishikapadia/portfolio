@@ -36,30 +36,9 @@ const fadeInUp: Variants = {
 };
 
 export default function WorkExperience({ className }: { className?: string }) {
-
-  return (
-      <MotionDiv
-        className={cn("w-full", className)}
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-      >
-        <Section text="Work Experience" href="experience">
-        {experiences?.map((experience) => (
-          <MotionDiv
-            key={experience.id}
-            viewport={{ once: true }}
-            variants={fadeInUp}
-            className="mb-6 last:mb-0"
-          >
-            <ExperienceItem experience={experience} />
-          </MotionDiv>
-        ))}
-      </Section>
-      </MotionDiv>
-  );
+  return null;
 }
+
 
 function ExperienceItem({ experience }: { experience: Experience }) {
   return (
