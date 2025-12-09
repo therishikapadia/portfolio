@@ -36,7 +36,6 @@ const fadeInUp: Variants = {
 };
 
 export default function WorkExperience({ className }: { className?: string }) {
-  const experiences: Experience[] = SITE_CONTENT.experience;
 
   return (
       <MotionDiv
