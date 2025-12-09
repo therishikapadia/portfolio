@@ -69,10 +69,10 @@ import {
 import { HiMiniCpuChip, HiMiniCommandLine } from "react-icons/hi2";
 
 export const SITE_CONFIG = {
-  title: "Rishi Kapadia — Builder | Maker | Manager",
+  title: "Rishi Kapadia — Developer | Builder | Problem Solver",
   author: "Rishi Kapadia",
   description:
-    "Builder, maker, and developer passionate about crafting digital solutions and innovative technology. I blend creativity with technical expertise to solve real-world problems and empower communities.",
+    "Full-stack developer passionate about building fast, intuitive digital experiences. I blend strong fundamentals in web development, AI, and core CS concepts to craft impactful products—from scalable MERN apps to intelligent tools powered by automation and LLMs.",
   lang: "en",
   siteLogo: "/logo.svg",
   socialLinks: [

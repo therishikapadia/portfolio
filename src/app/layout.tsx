@@ -7,15 +7,15 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Rishi Kapadia — Builder | Maker | Manager",
+  title: "Rishi Kapadia — Developer | Builder | Problem Solver",
   description:
-    "Builder, maker, and developer passionate about crafting digital solutions and innovative technology. I blend creativity with technical expertise to solve real-world problems and empower communities.",
+    "Full-stack developer passionate about building fast, intuitive digital experiences. I blend strong fundamentals in web development, AI, and core CS concepts to craft impactful products—from scalable MERN apps to intelligent tools powered by automation and LLMs",
   authors: [{ name: "Rishi Kapadia", url: "" }],
   openGraph: {
-    title: "Rishi Kapadia — Builder | Maker | Manager",
+    title: "Rishi Kapadia — Developer | Builder | Problem Solver",
     description:
-      "DBuilder, maker, and developer passionate about crafting digital solutions and innovative technology. I blend creativity with technical expertise to solve real-world problems and empower communities.",
-    siteName: "Rishi Kapadia — Builder | Maker | Manager",
+      "Full-stack developer passionate about building fast, intuitive digital experiences. I blend strong fundamentals in web development, AI, and core CS concepts to craft impactful products—from scalable MERN apps to intelligent tools powered by automation and LLMs",
+    siteName: "Rishi Kapadia — Developer | Builder | Problem Solver",
     url: "",
     type: "website",
     images: [
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rishi Kapadia — Builder | Maker | Manager",
+    title: "Rishi Kapadia — Developer | Builder | Problem Solver",
     description:
-      "Builder, maker, and developer passionate about crafting digital solutions and innovative technology. I blend creativity with technical expertise to solve real-world problems and empower communities.",
+      "Full-stack developer passionate about building fast, intuitive digital experiences. I blend strong fundamentals in web development, AI, and core CS concepts to craft impactful products—from scalable MERN apps to intelligent tools powered by automation and LLMs.",
     images: ["/assets/logo.svg"],
   },
   icons: {
