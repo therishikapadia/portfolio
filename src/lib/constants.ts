@@ -79,7 +79,7 @@ export const SITE_CONFIG = {
   socialLinks: [
     {
       text: "Resume",
-      href: "/cv_therishikapadia1.pdf",
+      href: "/projects/cv_therishikapadia1.pdf",
       download:"Rishi_Kapadia_CV.pdf",
       icon: FaFileAlt,
     },
