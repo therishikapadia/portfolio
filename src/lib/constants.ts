@@ -67,6 +67,7 @@ import {
   FaServer,
 } from "react-icons/fa";
 import { HiMiniCpuChip, HiMiniCommandLine } from "react-icons/hi2";
+import { image } from "framer-motion/client";
 
 export const SITE_CONFIG = {
   title: "Rishi Kapadia — Developer | Builder | Problem Solver",
@@ -160,7 +161,8 @@ export const SITE_CONTENT = {
     { name: "AWS", icon: SiAmazonwebservices },
     { name: "GCP", icon: SiGooglecloud },
     { name: "Colab", icon: SiGooglecolab },
- 
+    {name:"Vercel", icon :SiVercel},
+    {name:"Netlify", icon:SiNetlify}
   ],
 }
 
@@ -199,7 +201,7 @@ export const SITE_CONTENT = {
       description:
         "Real-time multiplayer word battle game with chat, lobbies, and fast-paced competitive gameplay built using Socket.IO.",
       category: ["Frontend", "Backend"],
-      image: "",
+      image: "/projects/Ww.png",
       url: "https://github.com/therishikapadia/WordWars",
       hosted_url: "",
       technologies: [
@@ -215,7 +217,7 @@ export const SITE_CONTENT = {
       description:
         "Beyond Syllabus a platform that transforms any syllabus into an interactive AI-powered learning companion.",
       category: ["Frontend", "Backend", "GenAI"],
-      image: "",
+      image: "/projects/hero.png",
       url: "https://github.com/therishikapadia/Extract",
       hosted_url: "",
       technologies: [
@@ -223,6 +225,20 @@ export const SITE_CONTENT = {
         { name: "Django", icon: SiDjango },
         { name: "PostgreSQL", icon: SiPostgresql   },
         { name: "React", icon: SiReact },
+      ],
+    },
+    {
+      name: "AttendEase",
+      description:
+      "Smart attendance management system enabling seamless tracking, authentication, analytics, and streamlined workflows for institutions and teams.",
+      category: "Frontend",
+      image: "/projects/image.png",
+      url: "https://github.com/therishikapadia/AttendEase",
+      hosted_url: "",
+      technologies: [
+        { name: "React", icon: SiReact },
+        { name: "Flask", icon: SiFlask },
+        { name: "MongoDB", icon: SiMongodb },
       ],
     },
     {
@@ -236,20 +252,6 @@ export const SITE_CONTENT = {
       technologies: [
         { name: "FAISS", icon: SiFacebook },
         { name: "Streamlit", icon: SiStreamlit },
-      ],
-    },
-    {
-      name: "AttendEase",
-      description:
-        "Smart attendance management system enabling seamless tracking, authentication, analytics, and streamlined workflows for institutions and teams.",
-      category: "Frontend",
-      image: "",
-      url: "https://github.com/deep3119/AttendEase",
-      hosted_url: "",
-      technologies: [
-        { name: "React", icon: SiReact },
-        { name: "Flask", icon: SiFlask },
-        { name: "MongoDB", icon: SiMongodb },
       ],
     },
   ],

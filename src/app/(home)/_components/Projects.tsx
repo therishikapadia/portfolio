@@ -44,7 +44,7 @@ export default function Projects({ projects }: Props) {
             <MotionDiv key={name} variants={fadeInUp}>
               <FlipCard flipDirection="vertical" className="h-96 w-full">
                 <FlipCardFront className="flex items-center justify-center rounded-2xl overflow-hidden">
-                  {hosted_url && !hosted_url.includes("github.com") ? (
+                  {image ? (
                     <>
                       <div className="absolute inset-0 bg-black/20 z-0" />
                       <Image
