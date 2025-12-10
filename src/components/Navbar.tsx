@@ -91,7 +91,9 @@ export default function Header() {
                 <Link
                   href={item.href}
                   target="_blank"
+                  prefetch={false}
                   aria-label={item.text}
+                  rel="noopener"
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
                     "flex size-12 items-center justify-center text-gray-800 dark:text-gray-200"
