@@ -118,7 +118,7 @@ export const SITE_CONTENT = {
     `,
     currentWork: "",
     location: "Ahmedabad, Gujarat",
-    image: "https://github.com/therishikapadia.png",
+    image: "https://github.com/therishikapadia.png?v=2",
   },
   skills: {
   languages: [
@@ -176,7 +176,7 @@ export const SITE_CONTENT = {
       start: "August 2024",
       end: "July 2027",
       link: "https://ljku.edu.in/",
-      logo: "https://ljku.edu.in/web/image/website/1/favicon?unique=6f7825e",
+      logo: "https://ljku.edu.in/web/image/res.company/1/logo",
     },
     {
       name: "LJ University",
@@ -185,7 +185,7 @@ export const SITE_CONTENT = {
       start: "August 2021",
       end: "May 2024",
       link: "https://ljku.edu.in/",
-      logo: "https://ljku.edu.in/web/image/website/1/favicon?unique=6f7825e",
+      logo: "https://ljku.edu.in/web/image/res.company/1/logo",
     },
   ],
   categories: [
