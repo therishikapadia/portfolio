@@ -90,6 +90,7 @@ export default function Header() {
                 <TooltipTrigger asChild>
                 <Link
                   href={item.href}
+                  target="_blank"
                   aria-label={item.text}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
