@@ -47,9 +47,9 @@ export default function Education({ education }: Props) {
                 <Image
                   src={`https://images.weserv.nl/?url=${logo}&output=webp`}
                   alt={name ?? ""}
-                  width={150}
-                  height={150}
-                  className="rounded-full"
+                  width={100}
+                  height={100}
+                  className="rounded-full shrink-0 object-contain"
                 />
               </Link>
               <h3 className="text-lg font-semibold">{name}</h3>

@@ -111,7 +111,7 @@ export const SITE_CONTENT = {
   hero: {
     name: "Rishi Kapadia",
     specialty: [
-  "Backend Developer","AI Enthusiast","Python Developer","Problem-solver"
+  "AI Enthusiast","Backend Developer","Problem-solver"
     ],
     summary: `
       Full-stack developer, backend-focused, AI-curious, practical and product-oriented.
