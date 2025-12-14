@@ -174,7 +174,7 @@ export const SITE_CONTENT = {
       location: "Ahmedabad, Gujarat, India",
       position: "B.E in Computer Science & Engineering",
       start: "August 2024",
-      end: "July 2027",
+      end: "Expected 2027",
       link: "https://ljku.edu.in/",
       logo: "https://ljku.edu.in/web/image/res.company/1/logo",
     },
