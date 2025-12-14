@@ -215,7 +215,7 @@ export const SITE_CONTENT = {
     {
       name: "NutriMind",
       description:
-        "Beyond Syllabus a platform that transforms any syllabus into an interactive AI-powered learning companion.",
+        "NutriMind uses AI to analyze food ingredients and provide personalized, allergy-aware nutrition safety recommendations.",
       category: ["Frontend", "Backend", "GenAI"],
       image: "/projects/hero.png",
       url: "https://github.com/therishikapadia/Extract",
