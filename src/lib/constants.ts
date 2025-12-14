@@ -138,6 +138,7 @@ export const SITE_CONTENT = {
   frameworks: [
     { name: "Express.js", icon: SiExpress },
     { name: "Next.js", icon: SiNextdotjs },
+    {name : "React.js",icon:SiReact},
     { name: "Node.js", icon: SiNodedotjs },
     { name: "Django", icon: SiDjango },
     { name: "Flask", icon: SiFlask },
